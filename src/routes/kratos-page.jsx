@@ -1,3 +1,4 @@
+import React from 'react';
 import Chaos from '../assets/images/chaos.jpg'
 import Leviatan from '../assets/images/leviatan.jpg'
 import '../assets/css/main.css'

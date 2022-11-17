@@ -1,9 +1,7 @@
-function Footer(){
+export default function Footer(){
   return(
-    <footer className="vh-100">
-      <div class="container p-5 text-center">Site desenvolvido completamente por ErickN</div>
+    <footer>
+      <div className="container pt-5 pb-5">Site desenvolvido completamente por ErickN</div>
     </footer>
   );
 }
-
-export default Footer;
