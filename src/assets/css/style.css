@@ -1,7 +1,6 @@
 @import url(./token.css);
 
 body {
-  color: #fff;
   font-size: 16px;
   line-height: 150%;
   background-image: url(../images/GOWL.jpg);
@@ -41,7 +40,6 @@ body {
 .background-black{
   background: rgba(0, 0, 0, 0.618);
 }
-
 
 .flex {
   display: flex;

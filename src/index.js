@@ -1,19 +1,20 @@
 import * as React from "react";
-import * as ReactDOM from "react-dom";
-import Root from "./routes/root";
+import * as ReactDOM from "react-dom/client";
 
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
 
-import PersonagensPage from "./routes/personagens-page";
-import LoginPage from "./routes/login-page";
+import App from "./pages/app";
+import PersonagensPage from "./pages/personagens-page";
+import LoginPage from "./pages/login-page";
+import Sandbox from "./pages/sandbox";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root />,
+    element: <App />,
   },
   {
     path: "personagens-page",
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
   {
     path: "login-page",
     element: <LoginPage/>,
+  },
+  {
+    path: "sandbox",
+    element: <Sandbox/>,
   },
 ]);
 

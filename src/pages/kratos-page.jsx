@@ -3,7 +3,7 @@ import Chaos from '../assets/images/chaos.jpg'
 import Leviatan from '../assets/images/leviatan.jpg'
 import '../assets/css/main.css'
 
-function Kratos(){
+export default function Kratos(){
   return(
     <>
       <h1 className="titulo mt-6 mb-6 "> As Principais Armas do Kratos em God of War: Ragnarök </h1>
@@ -41,5 +41,3 @@ function Kratos(){
     </>
   );
 }
-
-export default Kratos;

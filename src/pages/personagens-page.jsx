@@ -9,7 +9,9 @@ export default function PersonagensPage() {
   return(
     <>
       <Header/>
-      <Personagens/>
+      <main className='container pt-4'>
+        <Personagens/>
+      </main>
       <Footer/>
     </>
   );       

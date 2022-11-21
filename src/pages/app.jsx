@@ -3,8 +3,9 @@ import Header from '../template/header';
 import Personagens from '../components/personagens';
 import Titulo from '../components/titulo';
 import Footer from '../template/footer';
+import { Link } from "react-router-dom";
 
-export default function Root() {
+export default function App() {
   return (
     <>
       <Header/>
@@ -12,7 +13,7 @@ export default function Root() {
       <main className="container">
         <Titulo text="God of War: Ragnarök"/>
 
-        <p><strong>God od War</strong> é uma série de jogos eletrônicos de ação-aventura criada por David Jaffe da
+        <p><strong><Link to="sandbox">God od War</Link></strong> é uma série de jogos eletrônicos de ação-aventura criada por David Jaffe da
         <strong> Santa Monica Studio</strong>, da Sony. Iniciada em 2005 no console PlayStation 2
         <em><strong> (PS2)</strong></em>, tornou-se carro-chefe para a marca PlayStation, consistindo em oito jogos em
         várias plataformas, com um nono atualmente em desenvolvimento. Baseada em distintas mitologias, a história
