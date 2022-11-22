@@ -5,7 +5,13 @@ body {
   line-height: 150%;
   background-image: url(../images/GOWL.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   background-color: black;
+}
+
+.remove:hover{
+  color: red;
 }
 
 .table {
