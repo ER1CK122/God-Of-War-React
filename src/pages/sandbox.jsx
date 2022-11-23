@@ -24,7 +24,6 @@ export default function Sandbox(){
         <div className="d-flex mb-3">
           <form action="" className='me-2'>
             <input type="text" className="ps-2 rounded form-control"  id='text'/>
-
           </form>
           <button className="btn btn-outline-primary" onClick={()=>{addList()}}>Adicionar</button>
         </div>
@@ -34,7 +33,6 @@ export default function Sandbox(){
             <ListItem key={index} text={i.name} click={()=>{removeList(i)}}/>
           ))}
         </ul>
-
       </main>
     </>
   );
