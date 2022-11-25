@@ -13,7 +13,7 @@ export default function App() {
       <main className="container">
         <Titulo text="God of War: Ragnarök"/>
 
-        <p><strong><Link to="sandbox">God od War</Link></strong> é uma série de jogos eletrônicos de ação-aventura criada por David Jaffe da
+        <div className='paragrafo'><strong><Link to="sandbox">God od War</Link></strong> é uma série de jogos eletrônicos de ação-aventura criada por David Jaffe da
         <strong> Santa Monica Studio</strong>, da Sony. Iniciada em 2005 no console PlayStation 2
         <em><strong> (PS2)</strong></em>, tornou-se carro-chefe para a marca PlayStation, consistindo em oito jogos em
         várias plataformas, com um nono atualmente em desenvolvimento. Baseada em distintas mitologias, a história
@@ -22,7 +22,7 @@ export default function App() {
         mitologia grega da série mostra <strong>Kratos</strong> seguindo um caminho de vingança devido às maquinações
         dos deuses do Olimpo, enquanto a era da mitologia nórdica, que apresenta seu filho Atreus como protagonista
         secundário, mostra um Kratos mais velho em um caminho de redenção, o que inadvertidamente coloca os dois em
-        conflito com os deuses nórdicos.</p>
+        conflito com os deuses nórdicos.</div>
 
         <Titulo text="Os principais personagens de God of War: Ragnarök"/>
 

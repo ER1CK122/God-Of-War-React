@@ -13,7 +13,7 @@ import AngrbodaImage from '../assets/images/Angrboda.jpg'
 export default function Personagens(){
   return(
     <div className="grid grid-cols-3 grid-gap">
-      <CardPersonagen link="../pages/kratos.jsx" image={KratosImage}/>
+      <CardPersonagen link='kratos-page' image={KratosImage}/>
       <CardPersonagen link="../pages/kratos.jsx" image={AtreusImage}/>
       <CardPersonagen link="../pages/kratos.jsx" image={MimirImage}/>
       <CardPersonagen link="../pages/kratos.jsx" image={FreyaImage}/>

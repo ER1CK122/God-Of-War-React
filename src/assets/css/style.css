@@ -1,11 +1,12 @@
 @import url(./token.css);
 
 body {
+  color:#FFFFFF;
   font-size: 16px;
   line-height: 150%;
   background-image: url(../images/GOWL.jpg);
   background-repeat: no-repeat;
-  background-position: top;
+  background-size: 100%;
   background-color: black;
 }
 
@@ -94,7 +95,7 @@ p {
   line-height: 150%!important;
 }
 
-p strong {
+.paragrafo strong {
   color: var(--color-brand);
 }
 
@@ -187,7 +188,7 @@ td{
 
 .moved {
   transition: all 0.35s ease-in-out;
-  transform: translateY(130px);
+  transform: translateY(75%);
 }
 
 .moved p {
@@ -242,7 +243,7 @@ td{
 }
 
 img{
-  height: 100%;
+  max-height: 100%;
 }
 
 .container-fluid {

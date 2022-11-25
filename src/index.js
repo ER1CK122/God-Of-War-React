@@ -10,6 +10,7 @@ import App from "./pages/app";
 import PersonagensPage from "./pages/personagens-page";
 import LoginPage from "./pages/login-page";
 import Sandbox from "./pages/sandbox";
+import Kratos from "./pages/kratos-page";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
   {
     path: "sandbox",
     element: <Sandbox/>,
+  },
+  {
+    path: "kratos-page",
+    element: <Kratos/>,
   },
 ]);
 
