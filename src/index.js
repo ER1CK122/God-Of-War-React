@@ -8,9 +8,9 @@ import {
 
 import App from "./pages/app";
 import PersonagensPage from "./pages/personagens-page";
-import LoginPage from "./pages/login-page";
-import Sandbox from "./pages/sandbox";
+import Sandbox from "./pages/list-add-remove";
 import Kratos from "./pages/kratos-page";
+import ListaPersonagem from "./pages/lista-personagens"
 
 const router = createBrowserRouter([
   {
@@ -22,16 +22,16 @@ const router = createBrowserRouter([
     element: <PersonagensPage />,
   },
   {
-    path: "login-page",
-    element: <LoginPage/>,
-  },
-  {
-    path: "sandbox",
+    path: "list-add-remove",
     element: <Sandbox/>,
   },
   {
     path: "kratos-page",
     element: <Kratos/>,
+  },
+  {
+    path: "lista-personagem",
+    element: <ListaPersonagem/>,
   },
 ]);
 
