@@ -88,6 +88,7 @@ body {
 }
 
 img {
+  max-height: 100%;
   max-width: 100%;
   width: 100%;
 }
@@ -245,10 +246,6 @@ td{
 :root {
   --containerSize: 1000px; 
   --gutter:  15px;
-}
-
-img{
-  max-height: 100%;
 }
 
 .w-35{

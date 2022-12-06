@@ -1,11 +1,12 @@
 import '../assets/css/main.css'
+import React from 'react';
 import Header from '../template/header';
 import Personagens from '../components/personagens';
 import Titulo from '../components/titulo';
 import Footer from '../template/footer';
 import { Link } from "react-router-dom";
 
-export default function App() {
+export default function App() {  
   return (
     <>
       <Header/>
