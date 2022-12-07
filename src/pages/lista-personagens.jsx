@@ -17,7 +17,8 @@ export default function ListaPersonagens(){
     return (
       <div>
         {personagens.map((personagem, index)=>(
-          <div key={index}>
+          <div key={index} className='d-flex flex-collumn align-items-center '>
+            <div className="w-25 h-25"><img src={personagem.imagem} alt="" /></div>
             <div>{personagem.id}</div>
             <div>{personagem.nomePersonagem}</div>
             <div>{personagem.mitologia}</div>

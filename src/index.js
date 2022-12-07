@@ -1,13 +1,17 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom/client";
 
+
+
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
 
+
+
 import App from "./pages/app";
-import PersonagensPage from "./pages/personagens-page";
+import TrofeusPage from "./pages/trofeu-page";
 import Sandbox from "./pages/list-add-remove";
 import Kratos from "./pages/kratos-page";
 import ListaPersonagem from "./pages/lista-personagens"
@@ -18,8 +22,8 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "personagens-page",
-    element: <PersonagensPage />,
+    path: "trofeu-page",
+    element: <TrofeusPage />,
   },
   {
     path: "list-add-remove",
