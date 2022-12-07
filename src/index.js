@@ -1,17 +1,10 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom/client";
 
-
-
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
-
-
+import {createBrowserRouter, RouterProvider} from "react-router-dom";
 
 import App from "./pages/app";
-import TrofeusPage from "./pages/trofeu-page";
+import TrofeusPage from "./pages/trofeus-page";
 import Sandbox from "./pages/list-add-remove";
 import Kratos from "./pages/kratos-page";
 import ListaPersonagem from "./pages/lista-personagens"
@@ -19,11 +12,11 @@ import ListaPersonagem from "./pages/lista-personagens"
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <App/>,
   },
   {
-    path: "trofeu-page",
-    element: <TrofeusPage />,
+    path: "trofeus-page",
+    element: <TrofeusPage/>,
   },
   {
     path: "list-add-remove",
@@ -41,6 +34,6 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <RouterProvider router={router}/>
   </React.StrictMode>
 );
