@@ -6,7 +6,7 @@ export default function Header(){
     <header className="flex">
       <div className="container">
         <div className="d-flex align-items-center justify-content-center">
-          <div className='w-35'><Link to="/"><img src={logo} alt=""/></Link></div>
+          <div className='w-35'><Link to="/app-page"><img src={logo} alt=""/></Link></div>
           <nav className="navbar d-none d-lg-block">
             <ul>
               <li className="navbar-item"><Link to="/trofeus-page">Troféus</Link></li>
