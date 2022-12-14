@@ -343,3 +343,11 @@ td{
 .vh-90{
   height: 90vh;
 }
+
+.f-5{
+  font-size: 5em;
+}
+
+.branding-color{
+  color: #4277ad;
+}

@@ -4,6 +4,7 @@ import * as ReactDOM from "react-dom/client";
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 
 import App from "./pages/app";
+import NotFind from "./pages/404.jsx";
 import LoginPage from "./pages/login-page";
 import CriarContaPage from "./pages/criar-conta-page";
 import TrofeusPage from "./pages/trofeus-page";
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <LoginPage/>,
+  },
+  {
+    path: "*",
+    element: <NotFind/>,
   },
   {
     path: "criar-conta-page",
