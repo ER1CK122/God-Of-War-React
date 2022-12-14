@@ -14,7 +14,7 @@ import ListaPersonagem from "./pages/lista-personagens"
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "login-page",
     element: <LoginPage/>,
   },
   {
@@ -26,7 +26,7 @@ const router = createBrowserRouter([
     element: <CriarContaPage/>,
   },
   {
-    path: "app-page",
+    path: "/",
     element: <App/>,
   },
   {
