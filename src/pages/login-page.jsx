@@ -32,7 +32,7 @@ export default function LoginPage(){
         for(let i=0; i<senha.length; i++){
           if(inputSenha === senha[i]){
             console.log("ok");
-            window.location.href = "/app-page";
+            window.location.href = "/";
           }else{
             console.log(inputSenha);
             console.log(senha[i]);
